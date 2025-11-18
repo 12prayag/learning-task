@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+
+}
+
+.container {
+    max-width: 1280px;
+    padding-inline: 20px;
+    margin-inline: auto;
+}
+/* color-text */
+.name-col-spond{
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+} 
+h1{
+    font-size: 35px;
+
+    font-family: "jost", sans-serif;
+}
+.lorem-peregraf{
+    
+    margin-bottom:40px;
+    font-family:"jost", sans-serif;
+    font-size: 20px;
+}
+.maintain-task{
+    font-size: 18px;
+    margin-bottom: 36px;
+    color: rgba(34, 43, 43, 0.801);
+    margin-top: 10px;
+}
+.controvercy-top{
+    margin-top:10px;
+    font-size: 25px;
+    color: rgba(38, 61, 61, 0.938);
+}
+
+
+/* End */
+
+/* main div */
+/* .tow-col-sec {
+    padding-block: 100px;
+    color: rgb(8, 8, 8);
+
+
+} */
+
+/* end */
+
+
+.tow-col-wrapper {
+    display: flex;
+    gap: 20px;
+
+}
+
+.meain-coch-sec {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2px;
+}
+
+/* section */
+.liner {
+    width: 140px;
+    margin-top: 10px;
+    background: rgb(9, 216, 243);
+    height: 3px;
+}
+
+.color-decor {
+    color: aqua;
+}
+
+.lorem-peregraf {
+    margin-top: 20px;
+}
+
+/* iner box */
+.iner-colum-waper {
+    background-color: rgba(245, 242, 239, 0.486);
+    padding: 10px;
+    height: auto;
+}
+
+/* end */
+/* logo */
+.logo-contain svg {
+    width: 80px;
+    height: 50px;
+    display: flex;
+}
+
+.left-col,
+.right-col {
+    width: 100%;
+}
+
+img {
+    width: 100%;
+    display: inline;
+}
+
+.right-col {
+    aspect-ratio: 1/1;
+    height: auto;
+}
+
+.right-col img {
+    height: 100%;
+    
+
+}
+@media (max-width:1023.99px) {
+    .meain-coch-sec {
+
+            grid-template-columns: repeat(1 , 1fr);
+    }
+        .liner{
+        font-size: 5px;
+    }
+   .lorem-peregraf{
+    
+   
+    font-size: 15px;
+    
+    }
+   
+}
+@media (max-width:767.99px) {
+
+   .tow-col-wrapper{
+    flex-direction: column;
+   }
+
+}
