@@ -2,19 +2,24 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+
 
 }
-
+body{
+   
+}
 .container {
     max-width: 1280px;
     padding-inline: 20px;
     margin-inline: auto;
 }
+.logo-contain{
+
+}
 /* color-text */
 .name-col-spond{
-    font-size: 30px;
-    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-family: "jost", sans-serif;
 } 
 h1{
     font-family: "jost", sans-serif;
@@ -22,21 +27,24 @@ h1{
 }
 .lorem-peregraf{
     
-    margin-bottom:40px;
+    margin-top: 28px;
     font-family:"jost", sans-serif;
-    font-size: 20px;
+    font-size: 16px;
+    color: #222329a8;
 }
 
 .maintain-task{
     font-size: 18px;
-    margin-bottom: 36px;
-    color: rgba(34, 43, 43, 0.801);
+    margin-bottom: 79px;
+    
     margin-top: 10px;
+    padding-left: 17px;
 }
 .controvercy-top{
-    margin-top:10px;
-    font-size: 25px;
-    color: rgba(38, 61, 61, 0.938);
+    margin-top:26px;
+    font-size: 21px;
+   
+    padding-left: 17px;
 }
 
 
@@ -46,7 +54,7 @@ h1{
 .tow-col-sec {
     padding-block: 100px;
     color: rgb(8, 8, 8);
-
+    background-color: beige;
 
 } 
 
@@ -55,7 +63,7 @@ h1{
 
 .tow-col-wrapper {
     display: flex;
-    gap: 20px;
+    gap: 40px;
 
 }
 
@@ -63,38 +71,45 @@ h1{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2px;
+    color:#324872c0 ;
+    margin-top:35px ;
+    background-color: white;
+    
 }
 
 /* section */
 .liner {
-    width: 140px;
-    margin-top: 10px;
-    background: rgb(9, 216, 243);
+    width: 80px;
+    margin-top: 14px;
+    background: rgba(23, 231, 179, 0.925);
     height: 3px;
 }
 
 .color-decor {
-    color: aqua;
+    color: rgba(23, 231, 179, 0.925);
 }
 
-.lorem-peregraf {
-    margin-top: 20px;
-}
+
 
 /* iner box */
 .iner-colum-waper {
-    background-color: rgba(245, 242, 239, 0.486);
+   
     padding: 10px;
+    background:whitesmoke;
    
 }
 
 /* end */
 /* logo */
 .logo-contain svg {
-    width: 80px;
-    height: 50px;
+    width: 85px;
+    height: 55px;
     display: flex;
+    margin-top: 23px;
+   
+    
 }
+
 
 .left-col,
 .right-col {
