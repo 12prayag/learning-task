@@ -47,12 +47,11 @@ h1 {
 /* h3 ,p tage */
 .maintain-task {
     font-size: 18px;
-
-    margin-top: 10px;
+     margin-top: 10px; 
 }
 
 .controvercy-top {
-    margin-top: 26px;
+   
     font-size: 21px;
 
 
@@ -61,6 +60,7 @@ h1 {
 .con-men-sec {
     margin-bottom: 55px;
     padding-left: 17px;
+    margin-top: 26px; 
 }
 
 /* End */
