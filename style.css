@@ -42,22 +42,24 @@ h1 {
     margin-top: 20px;
 
 }
-
+/* End */
+/* h3 ,p tage */
 .maintain-task {
     font-size: 18px;
-    margin-bottom: 55px;
-
-    margin-top: 10px;
-    padding-left: 17px;
+   
+     margin-top: 10px; 
 }
 
 .controvercy-top {
-    margin-top: 26px;
+     margin-top: 26px; 
     font-size: 21px;
 
-    padding-left: 17px;
+    
 }
-
+.con-men-sec{
+    margin-bottom: 55px;
+    padding-left:17px ;
+}
 
 /* End */
 
@@ -125,7 +127,7 @@ h1 {
 .left-col,
 .right-col {
     width: 50%;
-    display: inline;
+    
 }
 
 img {
