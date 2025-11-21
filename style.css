@@ -94,12 +94,12 @@ h1 {
 .liner {
     width: 80px;
     margin-top: 14px;
-    background: rgba(23, 231, 179, 0.925);
+    background: #00ac8d;
     height: 3px;
 }
 
 .color-decor {
-    color: rgba(23, 231, 179, 0.925);
+    color: #00ac8d;
 }
 
 
@@ -169,6 +169,7 @@ img {
     .right-col {
         width: 100%;
     }
+    
 
 }
 
