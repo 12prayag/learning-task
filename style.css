@@ -25,14 +25,14 @@ body {
 }
 
 h1 {
-    
+
     margin-top: 20px;
 }
 
 .lorem-peregraf {
 
     margin-top: 28px;
-   
+
     font-size: 16px;
     color: #222329a8;
 }
@@ -42,23 +42,25 @@ h1 {
     margin-top: 20px;
 
 }
+
 /* End */
 /* h3 ,p tage */
 .maintain-task {
     font-size: 18px;
-   
-     margin-top: 10px; 
+
+    margin-top: 10px;
 }
 
 .controvercy-top {
-     margin-top: 26px; 
+    margin-top: 26px;
     font-size: 21px;
 
-    
+
 }
-.con-men-sec{
+
+.con-men-sec {
     margin-bottom: 55px;
-    padding-left:17px ;
+    padding-left: 17px;
 }
 
 /* End */
@@ -127,7 +129,7 @@ h1 {
 .left-col,
 .right-col {
     width: 50%;
-    
+
 }
 
 img {
@@ -169,7 +171,7 @@ img {
     .right-col {
         width: 100%;
     }
-    
+
 
 }
 
