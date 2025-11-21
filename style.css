@@ -5,45 +5,56 @@
 
 
 }
-body{
-   
+
+body {
+    font-family: "Poppins", sans-serif;
 }
+
 .container {
     max-width: 1280px;
     padding-inline: 20px;
     margin-inline: auto;
 }
-.logo-contain{
 
-}
+.logo-contain {}
+
 /* color-text */
-.name-col-spond{
+.name-col-spond {
     font-size: 20px;
-    font-family: "jost", sans-serif;
-} 
-h1{
-    font-family: "jost", sans-serif;
+    font-weight: 300;
+}
+
+h1 {
+    
     margin-top: 20px;
 }
-.lorem-peregraf{
-    
+
+.lorem-peregraf {
+
     margin-top: 28px;
-    font-family:"jost", sans-serif;
+   
     font-size: 16px;
     color: #222329a8;
 }
 
-.maintain-task{
+.head-secod-clas {
+    font-size: 38px;
+    margin-top: 20px;
+
+}
+
+.maintain-task {
     font-size: 18px;
-    margin-bottom: 79px;
-    
+    margin-bottom: 55px;
+
     margin-top: 10px;
     padding-left: 17px;
 }
-.controvercy-top{
-    margin-top:26px;
+
+.controvercy-top {
+    margin-top: 26px;
     font-size: 21px;
-   
+
     padding-left: 17px;
 }
 
@@ -54,16 +65,16 @@ h1{
 .tow-col-sec {
     padding-block: 100px;
     color: rgb(8, 8, 8);
-    background-color: beige;
+    background-color: #F5F6FA;
 
-} 
+}
 
 /* end */
 
 
 .tow-col-wrapper {
     display: flex;
-    gap: 40px;
+    gap: 50px;
 
 }
 
@@ -71,10 +82,10 @@ h1{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2px;
-    color:#324872c0 ;
-    margin-top:35px ;
-    background-color: white;
-    
+    color: #324872c0;
+    margin-top: 35px;
+
+
 }
 
 /* section */
@@ -93,10 +104,10 @@ h1{
 
 /* iner box */
 .iner-colum-waper {
-   
-    padding: 10px;
-    background:whitesmoke;
-   
+
+
+    background: white;
+
 }
 
 /* end */
@@ -106,14 +117,15 @@ h1{
     height: 55px;
     display: flex;
     margin-top: 23px;
-   
-    
+
+
 }
 
 
 .left-col,
 .right-col {
     width: 50%;
+    display: inline;
 }
 
 img {
@@ -131,26 +143,69 @@ img {
     object-fit: cover;
 
 }
+
 @media (max-width:1023.99px) {
     .meain-coch-sec {
 
-            grid-template-columns: repeat(1 , 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
-        .liner{
+
+    .liner {
         font-size: 5px;
     }
-   .lorem-peregraf{
-    
-   
-    font-size: 15px;
-    
+
+    .lorem-peregraf {
+        font-size: 15px;
     }
-   
+
+    .right-col img {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .left-col,
+    .right-col {
+        width: 100%;
+    }
+
 }
+
 @media (max-width:767.99px) {
 
-   .tow-col-wrapper{
-    flex-direction: column;
-   }
+    .tow-col-wrapper {
+        flex-direction: column;
+    }
 
+    .meain-coch-sec {
+
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    img {
+        width: 100%;
+        display: inline;
+    }
+
+    .right-col img {
+        height: 65%;
+        object-fit: cover;
+    }
+
+}
+
+@media (max-width:424.99px) {
+
+    .lorem-peregraf {
+        font-size: 10px;
+    }
+
+    .meain-coch-sec {
+
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .maintain-task {
+
+        margin-bottom: 50px;
+    }
 }
