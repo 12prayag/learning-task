@@ -60,7 +60,7 @@ h1 {
 
 .con-men-sec {
     margin-bottom: 55px;
-    padding-left: 17px;
+   
     margin-top: 26px;
 }
 
@@ -110,7 +110,7 @@ h1 {
 /* iner box */
 .iner-colum-waper {
 
-
+    padding: 20px;
     background: white;
 
 }
