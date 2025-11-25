@@ -14,6 +14,7 @@ body {
     max-width: 1280px;
     padding-inline: 20px;
     margin-inline: auto;
+    width: 100%;
 }
 
 .logo-contain {}
@@ -157,7 +158,7 @@ img {
     }
 
     .lorem-peregraf {
-        font-size: 15px;
+        font-size: 16px;
     }
 
     .right-col img {
@@ -169,6 +170,7 @@ img {
     .right-col {
         width: 100%;
     }
+
 
 
 }
@@ -194,12 +196,17 @@ img {
         object-fit: cover;
     }
 
+    .right-col {
+    aspect-ratio: 0;
+    
+}
+
 }
 
 @media (max-width:424.99px) {
 
     .lorem-peregraf {
-        font-size: 10px;
+        font-size: 16px;
     }
 
     .meain-coch-sec {
