@@ -178,7 +178,7 @@ img {
 @media (max-width:767.99px) {
 
     .tow-col-wrapper {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     .meain-coch-sec {
